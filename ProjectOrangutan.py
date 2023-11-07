@@ -75,15 +75,9 @@ def gasLevelAlert():
 
 gasLevelAlert()
 
+print("\n*********************************************************************\n")
 
-
-print("\n**************************************************\n")
-
-print("Weather Branch\n")
-
-#Import Libraries here
-import random
-from time import sleep
+print("Checking current Weather Condition")
 
 #Create a function randomly choosing the weather from a list
 def weather():
@@ -118,6 +112,7 @@ def vehicleResponseSystem():
         print("\nThe weather forcast is calling for a", weatherAlert, "day.  Enjoy your drive to work!")
     else:
         print("\nThe weather forcast is calling for a", weatherAlert, "day.  Enjoy your drive to work!")
+
 
 vehicleResponseSystem()
 
